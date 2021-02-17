@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [LAYER_BASE] =    LAYOUT(KC_F13, KC_F14, KC_F15,
                     KC_F16, TG(LAYER_1), KC_F18,
-                    KC_MRWD, KC_MPLY, KC_MFFD),
+                    KC_MPRV, KC_MPLY, KC_MNXT),
 
   [LAYER_1]     =   LAYOUT(RGB_TOG, RGB_VAI, RGB_MOD,
                     RGB_HUI, KC_TRNS, RGB_SAI,
